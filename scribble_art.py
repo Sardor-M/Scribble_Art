@@ -1,3 +1,5 @@
+import sys
+import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,12 +31,26 @@ plt.axis('off')
 plt.title("After Bilateral Filtering")
 plt.show()
 
-#Convert the image to color
+# Convert the image to color
 color = cv2.stylization(img, sigma_s=150, sigma_r=0.25)
 plt.imshow(color)
 plt.axis('off')
 plt.title("After Stylization")
 plt.show()
+
+# Clustering the colors
+img_new = np.float32(gray_image).reshape(-1,3)
+criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.2)
+K = 5 
+ret, label, center = cv2.kmeans(img_new, K, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
+center = np.uint8(center)
+final_img = center[label.flatten()]
+final_img = final_img.reshape(gray_image.shape)
+plt.imshow(final_img)
+plt.axis('off')
+plt.title("After Quantization")
+plt.show()
+
 
 # Display the catoon image 
 cv2.imshow("Color", color)
