@@ -53,6 +53,7 @@ plt.show()
 
 
 # Display the catoon image 
-cv2.imshow("Color", color)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+final=cv2.bitwise_and(final_img,final_img,mask=edges)
+plt.imshow(final)
+plt.axis('off')
+plt.show()

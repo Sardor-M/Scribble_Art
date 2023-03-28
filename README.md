@@ -4,13 +4,14 @@
 
 ## Description
 
-- This is a small application that allows you to convert the given input image(s) 
-to a cartoonized form of look. Here, i used the following methods :
+- This is a small application that allows you to convert the given input image(s)
+  to a cartoonized form of look. Here, i used the following methods :
 
-     - Median Blurring, 
-     - Adaptive Threshholding, 
-     - Bilateral Blurring, 
-     - Stylization
+  - Median Blurring,
+  - Adaptive Threshholding,
+  - Bilateral Blurring,
+  - Stylization,
+  - Color Quantization
 
 Please refer to image results to learn more about it
 
@@ -25,14 +26,14 @@ Please refer to image results to learn more about it
 
 - Final result image result comparison with the original image.
 
-|   Original Image    |               Result Image                |
+|   Original Image    |          Final Result Image (1)           |
 | :-----------------: | :---------------------------------------: |
-| ![](Bald-Eagle.jpg) | ![](result_images/final-image-result.png) |
+| ![](Bald-Eagle.jpg) | ![](result_images/after-quantization.png) |
 
 ### Final Result Comparison
 
 - This is the final result image comparison with ChatGPT generated code example:
 
-|            Final Result Image             |          Result Image by ChatGPT           |
-| :---------------------------------------: | :----------------------------------------: |
-| ![](result_images/final-image-result.png) | ![](result_images/ChatGPT_code_result.png) |
+|       Final Result Image (2)       |      ChatGPT generated code's result       |
+| :--------------------------------: | :----------------------------------------: |
+| ![](result_images/final-image.png) | ![](result_images/ChatGPT_code_result.png) |
