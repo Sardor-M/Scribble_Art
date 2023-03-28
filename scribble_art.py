@@ -23,7 +23,7 @@ plt.title("After Adaptive Thresholding")
 plt.show()
 
 # Removing the noise 
-gray_image=cv2.bilateralFilter(gray_image, 9, 300, 300)
+gray_image=cv2.bilateralFilter(gray_image, 2, 450, 650)
 plt.imshow(gray_image, cmap="gray")
 plt.axis('off')
 plt.title("After Bilateral Filtering")

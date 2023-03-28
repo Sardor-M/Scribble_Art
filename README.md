@@ -4,19 +4,26 @@
 
 ## Description
 
-- This is a small application that allows you to convert the given input image(s) to a cartoonized form of look. In this application, i used the following methods : - Median Blurring, - Adaptive Threshholding, - Bilateral Blurring, - Stylization
-  Please refer to the below link to learn how to run this application.
+- This is a small application that allows you to convert the given input image(s) 
+to a cartoonized form of look. Here, i used the following methods :
+
+     - Median Blurring, 
+     - Adaptive Threshholding, 
+     - Bilateral Blurring, 
+     - Stylization
+
+Please refer to image results to learn more about it
 
 ## Results
 
-### Comverted Images
+### Converted Images
 
 <p align ="left"> <img width=47% src="result_images/after-median-blurring.png "/><img align = "right"width=47% src="result_images/after-adaptive-thresholding.png"/></p>
 <p align ="left"> <img width=47% src="result_images/after-bilateral-filtering.png "/><img align = "right"width=47% src="result_images/after-stylization.png"/></p>
 
 ### Final Result Image
 
-- Final result image result comparison with original image.
+- Final result image result comparison with the original image.
 
 |   Original Image    |               Result Image                |
 | :-----------------: | :---------------------------------------: |
