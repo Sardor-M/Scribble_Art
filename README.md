@@ -18,14 +18,14 @@
 
 - Final result image result comparison with original image.
 
-<p align ="left"> <img width=47% src="Bald-Eagle.jpg "/><img align = "right"width=47% src="result_images/final-image-result.png"/></p>
+|   Original Image    |               Result Image                |
+| :-----------------: | :---------------------------------------: |
+| ![](Bald-Eagle.jpg) | ![](result_images/final-image-result.png) |
 
 ### Final Result Comparison
 
-- This is the final result image comparison with ChatGPT's image generated example:
+- This is the final result image comparison with ChatGPT generated code example:
 
-<p align ="left"> 
-<h5>Final Result Image:  </h5>
-<img width=47% src="result_images/final-image-result.png "/>
-<h5>Final Result Image - by ChatGPT </h5>
-<img align = "right"width=47% src="result_images/ChatGPT_code_result.png"/></p>
+|            Final Result Image             |          Result Image by ChatGPT           |
+| :---------------------------------------: | :----------------------------------------: |
+| ![](result_images/final-image-result.png) | ![](result_images/ChatGPT_code_result.png) |
